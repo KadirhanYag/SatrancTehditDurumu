@@ -105,11 +105,11 @@ namespace Satranc
                     {
                         switch (satrancTaslarininKonumlariVeIsimleri[(i, j)].First())
                         {
-                            case 'k':
-                                Tasin_X_Pozisyonu = i;
-                                Tasin_Y_Pozisyonu = j;
-                                KALE(satrancTaslarininKonumlariVeIsimleri, Tasin_X_Pozisyonu, Tasin_Y_Pozisyonu);
-                                break;
+                            //case 'k':
+                            //    Tasin_X_Pozisyonu = i;
+                            //    Tasin_Y_Pozisyonu = j;
+                            //    KALE(satrancTaslarininKonumlariVeIsimleri, Tasin_X_Pozisyonu, Tasin_Y_Pozisyonu);
+                            //    break;
 
                             case 'a':
                                 Tasin_X_Pozisyonu = i;
@@ -117,11 +117,11 @@ namespace Satranc
                                 AT(satrancTaslarininKonumlariVeIsimleri, Tasin_X_Pozisyonu, Tasin_Y_Pozisyonu);
                                 break;
 
-                            case 'f':
-                                Tasin_X_Pozisyonu = i;
-                                Tasin_Y_Pozisyonu = j;
-                                FIL(satrancTaslarininKonumlariVeIsimleri, Tasin_X_Pozisyonu, Tasin_Y_Pozisyonu);
-                                break;
+                            //case 'f':
+                            //    Tasin_X_Pozisyonu = i;
+                            //    Tasin_Y_Pozisyonu = j;
+                            //    FIL(satrancTaslarininKonumlariVeIsimleri, Tasin_X_Pozisyonu, Tasin_Y_Pozisyonu);
+                            //    break;
 
                             case 'v': // Vezir fil ve kalenin hareklerini uyguladıgından onlara ait metotlar ile kontrol ediliyor.
                                 Tasin_X_Pozisyonu = i;
@@ -131,12 +131,12 @@ namespace Satranc
 
                                 break;
 
-                            case 's': // Sahın çapraz hareketini piyon metodunda kontrol edildiğinden eksik kısımlar için sah metotu oluşturuldu.
-                                Tasin_X_Pozisyonu = i;
-                                Tasin_Y_Pozisyonu = j;
-                                PIYON(satrancTaslarininKonumlariVeIsimleri, Tasin_X_Pozisyonu, Tasin_Y_Pozisyonu);
-                                SAH(satrancTaslarininKonumlariVeIsimleri, Tasin_X_Pozisyonu, Tasin_Y_Pozisyonu);
-                                break;
+                            //case 's': // Sahın çapraz hareketini piyon metodunda kontrol edildiğinden eksik kısımlar için sah metotu oluşturuldu.
+                            //    Tasin_X_Pozisyonu = i;
+                            //    Tasin_Y_Pozisyonu = j;
+                            //    PIYON(satrancTaslarininKonumlariVeIsimleri, Tasin_X_Pozisyonu, Tasin_Y_Pozisyonu);
+                            //    SAH(satrancTaslarininKonumlariVeIsimleri, Tasin_X_Pozisyonu, Tasin_Y_Pozisyonu);
+                            //    break;
 
                             case 'p':
                                 Tasin_X_Pozisyonu = i;
